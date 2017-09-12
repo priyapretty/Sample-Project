@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dependingfemale</string>
+    <string name="EMPTY">please enter the size</string>
+    <string name="ENTER_CORRECT_SIZE">enter the correct size</string>
+</resources>

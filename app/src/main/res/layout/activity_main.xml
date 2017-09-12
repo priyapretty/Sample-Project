@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/etheight"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="60dp"
+        android:hint="HEIGHT"
+        android:inputType="number"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/etshoulder"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="SHOULDER"
+        android:inputType="number"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/etchest"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="60dp"
+        android:hint="CHEST"
+        android:inputType="number"/>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/etwaist"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="60dp"
+        android:hint="WAIST"
+        android:inputType="number"/>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/ethips"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:layout_height="60dp"
+        android:hint="HIPS"
+        android:inputType="number"/>
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/etinseam"
+        android:layout_width="match_parent"
+        android:imeOptions="actionDone"
+        android:layout_height="60dp"
+        android:hint="INSEAM"
+        android:inputType="number"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="LOGIN"
+            />
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
